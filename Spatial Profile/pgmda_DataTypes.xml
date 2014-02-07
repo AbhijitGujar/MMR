@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<RefData version="1.0" exporter="EA.25">
+	<DataSet name="Model Data Types - Code and DDL" table="t_datatypes" filter="Type='#Type#' and ProductName='#ProductName#' and DataType='#DataType#'" stoplist=";DatatypeID;">
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="GM_Point"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="POINT"/>
+			<Column name="DatatypeID" value="376"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="GM_MultiCurve"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="MULTILINESTRING"/>
+			<Column name="DatatypeID" value="377"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="GM_Polygon"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="POLYGON"/>
+			<Column name="DatatypeID" value="378"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="GM_MultiPoint"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="MULTIPOINT"/>
+			<Column name="DatatypeID" value="379"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="GM_LineString"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="LINESTRING"/>
+			<Column name="DatatypeID" value="380"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="GM_MultiSurface"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="MULTIPOLYGON"/>
+			<Column name="DatatypeID" value="381"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="GM_Complex"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="GEOMETRYCOLLECTION"/>
+			<Column name="DatatypeID" value="382"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="Date"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="Date"/>
+			<Column name="DatatypeID" value="383"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="Integer"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="Integer"/>
+			<Column name="DatatypeID" value="384"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="Real"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="Real"/>
+			<Column name="DatatypeID" value="385"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="Boolean"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="Boolean"/>
+			<Column name="DatatypeID" value="386"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="Char"/>
+			<Column name="Size" value="1"/>
+			<Column name="MaxLen" value="50"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="DefaultLen" value="10"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="Char"/>
+			<Column name="DatatypeID" value="387"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="String"/>
+			<Column name="Size" value="1"/>
+			<Column name="MaxLen" value="255"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="DefaultLen" value="30"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="String"/>
+			<Column name="DatatypeID" value="388"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="DDL"/>
+			<Column name="ProductName" value="PostgreSQL"/>
+			<Column name="DataType" value="POINT"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="DatatypeID" value="389"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="DDL"/>
+			<Column name="ProductName" value="PostgreSQL"/>
+			<Column name="DataType" value="LINESTRING"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="DatatypeID" value="390"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="DDL"/>
+			<Column name="ProductName" value="PostgreSQL"/>
+			<Column name="DataType" value="POLYGON"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="DatatypeID" value="391"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="DDL"/>
+			<Column name="ProductName" value="PostgreSQL"/>
+			<Column name="DataType" value="MULTIPOIINT"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="DatatypeID" value="392"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="DDL"/>
+			<Column name="ProductName" value="PostgreSQL"/>
+			<Column name="DataType" value="MULTILINESTRING"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="DatatypeID" value="393"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="DDL"/>
+			<Column name="ProductName" value="PostgreSQL"/>
+			<Column name="DataType" value="MULTIPLOYGON"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="DatatypeID" value="394"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="DDL"/>
+			<Column name="ProductName" value="PostgreSQL"/>
+			<Column name="DataType" value="GEOMETRYCOLLECTION"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="DatatypeID" value="395"/>
+		</DataRow>
+		<DataRow>
+			<Column name="Type" value="Code"/>
+			<Column name="ProductName" value="PIM"/>
+			<Column name="DataType" value="Double"/>
+			<Column name="Size" value="0"/>
+			<Column name="MaxScale" value="0"/>
+			<Column name="User" value="1"/>
+			<Column name="GenericType" value="Double"/>
+			<Column name="DatatypeID" value="396"/>
+		</DataRow>
+	</DataSet>
+</RefData>

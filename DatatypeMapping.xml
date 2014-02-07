@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DatatypeMapping version="01-02-2012 14:51:23" source="PIM">
+      <Boolean Datatype="boolean" />
+      <boolean Datatype="boolean" />
+      <Integer Datatype="integer" />
+      <integer Datatype="integer" />
+      <Double Datatype="real" />
+      <double Datatype="real" />
+      <Real Datatype="real" />
+      <real Datatype="real" />
+      <DateTime Datatype="timestamp" />
+      <datetime Datatype="timestamp" />
+      <Date Datatype="timestamp" />			
+      <date Datatype="timestamp" />			
+      <Binary Datatype="blob" />
+      <binary Datatype="blob" />
+      <GM_Point Datatype="POINT" Index="INDEX USING GIST" />
+      <GM_LineString Datatype="LINESTRING" Index="INDEX USING GIST" />
+      <GM_Polygon Datatype="POLYGON" Index="INDEX USING GIST" />
+      <GM_MultiSurface Datatype="MULTIPOLYGON" Index="INDEX USING GIST" />
+      <GM_MultiCurve Datatype="MULTILINESTRING" Index="INDEX USING GIST" />
+      <GM_MultiPoint Datatype="MULTIPOINT" Index="INDEX USING GIST" />
+      <GM_Complex Datatype="GEOMETRYCOLLECTION" Index="INDEX USING GIST" />
+      <Number Datatype="numeric" Precision="15" Scale="3" />
+      <number Datatype="numeric" Precision="15" Scale="3" />
+      <string Datatype="varchar" Length="100" />
+      <String Datatype="varchar" Length="100" />
+      <varchar Datatype="varchar" Length="50" />
+      <Varchar Datatype="varchar" Length="50" />
+      <VarChar Datatype="varchar" Length="50" />
+      <char Datatype="varchar" Length="30" />
+      <Char Datatype="varchar" Length="30" />
+</DatatypeMapping>

@@ -1,0 +1,113 @@
+<MDG.Technology version="1.0"><Documentation id="pgMDA" name="ISO-OGC Spatial" version="1.0" notes="Elements for spatial data modelling"/>
+  <UMLProfiles>
+    <UMLProfile profiletype="uml2">
+			<Documentation id="A3ACAE55-5" name="ISO_GM" version="1.0" alias="MDA" notes="MDA Elements and Types&#xA;"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Class" notes="" cx="90" cy="70" bgcolor="16772829" fontcolor="-1" bordercolor="16744448" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="CodeList" notes="" cx="90" cy="70" bgcolor="15852258" fontcolor="-1" bordercolor="8388672" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Enumeration"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Enumeration" notes="" cx="90" cy="70" bgcolor="15852258" fontcolor="-1" bordercolor="8388672" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Enumeration"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="FeatureType" notes="" cx="90" cy="70" bgcolor="16053492" fontcolor="-1" bordercolor="32768" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GM_Composite" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Datatype"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GM_LineString" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Datatype"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GM_MultiCurve" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Datatype"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GM_MultiPoint" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Datatype"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GM_MultiSurface" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Datatype"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GM_Point" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Datatype"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="GM_Polygon" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Datatype"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Type" notes="" cx="90" cy="70" bgcolor="15532031" fontcolor="-1" bordercolor="4210816" borderwidth="1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles>
+  <UIToolboxes>
+    <UMLProfile profiletype="uml2">
+      <Documentation id="7EDE2247-D" name="pgMDA" version="1.0" alias="ISO-OGC" notes="UML elements for (spatial) class diagrams"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="UML Elements" notes="" cx="217" cy="85" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="UML::Association" type="" description="" unit="" values="" default="Association"/>
+							<Tag name="UML::Generalization" type="" description="" unit="" values="" default="Generalization"/>
+							<Tag name="UML::Aggregation" type="" description="" unit="" values="" default="Aggregation"/>
+							<Tag name="UML::Composition" type="" description="" unit="" values="" default="Composition"/>
+							<Tag name="UML::AssociationClass" type="" description="" unit="" values="" default="Association Class"/>
+							<Tag name="UML::Package" type="" description="" unit="" values="" default="Package"/>
+						</TaggedValues>
+					</Stereotype>
+					<Stereotype name="ISO Spatial Elements" notes="" cx="306" cy="98" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="ToolboxPage"/>
+						</AppliesTo>
+						<TaggedValues>
+							<Tag name="ISO_GM::Class(UML::Class)" type="" description="" unit="" values="" default="Class"/>
+							<Tag name="ISO_GM::CodeList(UML::Enumeration)" type="" description="" unit="" values="" default="CodeList"/>
+							<Tag name="ISO_GM::Enumeration(UML::Enumeration)" type="" description="" unit="" values="" default="Enumeration"/>
+							<Tag name="ISO_GM::FeatureType(UML::Class)" type="" description="" unit="" values="" default="FeatureType"/>
+							<Tag name="ISO_GM::Type(UML::Class)" type="" description="" unit="" values="" default="Type"/>
+						</TaggedValues>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+			</Content>
+		</UMLProfile>
+	</UIToolboxes>
+</MDG.Technology>
